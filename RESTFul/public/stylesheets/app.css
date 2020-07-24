@@ -1,0 +1,12 @@
+
+.main.container {
+	margin-top: 7.0em;
+}
+
+.card{
+	max-height:30%;
+}
+
+#delete{
+	display: inline;
+}

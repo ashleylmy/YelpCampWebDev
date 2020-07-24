@@ -1,0 +1,17 @@
+<h1>
+<%= results["totalResults"]%>	Result Found
+</h1>
+
+<p>
+	showing the first one
+	<%- results["Search"][0] %>
+</p>
+
+<h2>
+	<% var result=results["Search"][0] %>
+	<% Object.entries(result).forEach(function(item){ %>
+		<li> <%= item %>  </li>
+	<% }) %>
+  	
+
+</h2>

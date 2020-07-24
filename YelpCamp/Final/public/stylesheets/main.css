@@ -1,0 +1,119 @@
+
+#authPage{
+	height:100%;
+	width:100%;
+	margin:0;
+	padding:0;
+	position: absolute;
+	/* background: #020611; */
+	background-size: cover;
+	background-position: center center;
+	 background-repeat: no-repeat;
+	
+	background-image:url("https://images.unsplash.com/photo-1541874760634-a0da8ee7415b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+	}
+	
+
+#authPage .signin-container{
+margin-top: 15rem !important;
+height: 370px;
+margin:auto;
+width: 400px;
+}
+
+#authPage .card{
+	background-color: rgba(0,0,0,0.5) !important;
+}
+
+
+#authPage .social_icon span{
+font-size: 50px;
+margin-left: 10px;
+color: #FFC312;
+}
+
+#authPage .social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+#authPage .card-header h3{
+color: white;
+}
+
+#authPage .social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+#authPage .input-group-prepend span{
+width: 40px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+#authPage input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+}
+#authPage .btn{
+color: black;
+background-color: #FFC312;
+width: auto;
+border-color: transparent;
+}
+
+#authPage .btn:hover{
+color: black;
+background-color: white;
+}
+
+#authPage .links{
+color: white;
+}
+
+#authPage .links a{
+margin-left: 4px;
+}
+
+#authPage .admin{
+color:white;
+font-size: 0.8rem
+}
+.caption-full{
+	padding:9px;
+}
+
+#delete_form{
+	display: inline;
+}
+
+.alertMessage { 
+  opacity: 0;
+  animation: alertAnimation 4s linear; 
+}
+
+@keyframes alertAnimation { 
+  0% { 
+    opacity: 0; 
+    animation-timing-function: ease-in;
+  }
+  30% { 
+    opacity: 1; 
+  }
+  70% { 
+    opacity: 1; 
+    animation-timing-function: ease-out;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Google Maps */
+#map {
+    height: 400px;
+    width: 100%;
+}
