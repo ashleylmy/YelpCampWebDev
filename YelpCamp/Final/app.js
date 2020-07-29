@@ -25,8 +25,7 @@ var campgroundsRoutes= require("./routes/campgrounds.js"),
 app.locals.moment = require('moment');
 //mongoose config
 mongoose.set('useUnifiedTopology', true);
-mongoose.connect('mongodb+srv://ashley:'+process.env.mongodbKey+'@cluster0.cwxi4.mongodb.net/<dbname>?retryWrites=true&w=majority', { useNewUrlParser: true });
-mongoose.set('useFindAndModify', false);
+mongoose.connect('mongodbURL', {useNewUrlParser: true }); mongoose.set('useFindAndModify', false);
 
 app.use(methodOverride("_method"));
 app.use(flash());
